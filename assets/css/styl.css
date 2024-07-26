@@ -1,0 +1,168 @@
+/**
+* Template Name: Eterna - v4.8.1
+* Template URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+.header {
+  height: 60px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+}
+
+.header a {
+  color: blue;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #e6573f;
+  text-decoration: none;
+}
+
+.header h1 {
+   border-left: 10px solid blueviolet;
+   border-radius: 50px;
+   text-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15) ;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #e96b56;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #ee8b7a;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/
+footer a {
+text-decoration: none;
+}
+
+footer a:hover {
+color: white;
+text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+#  INDEX.php
+--------------------------------------------------------------*/
+
+main {
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+button a {
+text-decoration: none;
+}
+
+ .alert {
+  color: blanchedalmond;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: indianred;
+  transition: all ease-in-out 0.3s;
+  height: 75%;
+}
+
+/*--------------------------------------------------------------
+#  VOYAGE.php
+--------------------------------------------------------------*/
+main .card {
+  padding: 30px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #fff;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+#  SCALE.php
+--------------------------------------------------------------*/
+.scale {
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: lemonchiffon;
+  transition: all ease-in-out 0.3s;
+  height: 90%;
+}
+
+/*--------------------------------------------------------------
+#  FORMULAIRE.php
+--------------------------------------------------------------*/
+ .form-card {
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: lemonchiffon;
+  transition: all ease-in-out 0.3s;
+  height: 45%;
+}
+
+/*--------------------------------------------------------------
+#  REçU.php
+--------------------------------------------------------------*/
+ .recu {
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: lightblue;
+  transition: all ease-in-out 0.3s;
+  height: 45%;
+}
+
+/*--------------------------------------------------------------
+#  CONTACT.php
+--------------------------------------------------------------*/
+ #contact .info-box {
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: lightblue;
+  transition: all ease-in-out 0.3s;
+  height: 60%;
+}
+
+#contact .php-email-form {
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: lightblue;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+
